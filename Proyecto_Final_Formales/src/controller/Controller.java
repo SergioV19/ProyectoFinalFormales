@@ -1,6 +1,7 @@
 package controller;
 
 import modules.expresiones_regulares.src.controllers.REController;
+import modules.pda.runner.RunPDA;
 import views.MainFrame;
 
 import java.awt.event.ActionEvent;
@@ -21,7 +22,14 @@ public class Controller implements ActionListener {
             case REGULAR_EXPRESSIONS:
                 initRegularExpressions();
                 break;
+            case PDA:
+                initPda();
+                break;
         }
+    }
+
+    private void initPda() {
+        new RunPDA();
     }
 
     private void initRegularExpressions(){

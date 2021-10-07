@@ -2,5 +2,5 @@ package controller;
 
 public enum Actions {
 
-    REGULAR_EXPRESSIONS
+    REGULAR_EXPRESSIONS, PDA
 }
