@@ -28,5 +28,10 @@ public class MainFrame extends JFrame {
         reBtn.setActionCommand(Actions.REGULAR_EXPRESSIONS.toString());
         reBtn.addActionListener(listener);
         add(reBtn);
+
+        JButton btnPda = new JButton("Autómata de pila");
+        btnPda.setActionCommand(Actions.PDA.toString());
+        btnPda.addActionListener(listener);
+        add(btnPda);
     }
 }
