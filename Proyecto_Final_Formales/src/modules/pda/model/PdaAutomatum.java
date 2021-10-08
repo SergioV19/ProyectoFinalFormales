@@ -1,6 +1,6 @@
 package modules.pda.model;
 
-import view.IoManager;
+import modules.pda.view.IoManager;
 
 import java.io.IOException;
 import java.util.ArrayList;

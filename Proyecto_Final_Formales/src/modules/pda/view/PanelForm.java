@@ -1,6 +1,6 @@
 package modules.pda.view;
 
-import model.PdaAutomatum;
+import modules.pda.model.PdaAutomatum;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;

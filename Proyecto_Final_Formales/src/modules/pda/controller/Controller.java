@@ -3,7 +3,7 @@ package modules.pda.controller;
 
 import modules.pda.model.PdaAutomatum;
 import modules.pda.view.IoManager;
-import view.IoManager;
+import modules.pda.view.IoManager;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
