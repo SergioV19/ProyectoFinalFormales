@@ -66,7 +66,7 @@ public class DFAMyFrame extends JFrame {
 
 		panelFuncion(control);
 
-		panelComprar(control);
+		panelComparar(control);
 
 		add(derechaJPanel);
 		add(grafo);
@@ -84,7 +84,7 @@ public class DFAMyFrame extends JFrame {
 		derechaJPanel.add(seleccionarTipo, gbc);
 	}
 
-	private void panelComprar(DFAController control) {
+	private void panelComparar(DFAController control) {
 		JPanel panelcomparar = new JPanel();
 		panelcomparar.setPreferredSize(new Dimension(withBorderPanels, 150));
 		panelcomparar.setBorder(new LineBorder(Color.BLACK));
