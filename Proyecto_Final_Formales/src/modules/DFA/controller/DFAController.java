@@ -22,15 +22,6 @@ public class DFAController implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent even) {
 		switch (even.getActionCommand()) {
-		case "ADD_ALFABETO": {
-			String alfabeto = view.getAlfabeto();
-			if (!alfabeto.isEmpty()) {
-				System.out.println(alfabeto);
-			} else {
-				view.showDialog("El alfabeto esta vacio");
-			}
-			break;
-		}
 		case "ADD_ESTADO": {
 			DFAEstado estado = view.getEstado();
 			if (estado == null) {
