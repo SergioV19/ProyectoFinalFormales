@@ -25,16 +25,19 @@ public class MainFrame extends JFrame {
 
     private void addREBTN(ActionListener listener){
         JButton reBtn = new JButton("Expresiones regulares");
+        reBtn.setBackground(Color.WHITE);
         reBtn.setActionCommand(Actions.REGULAR_EXPRESSIONS.toString());
         reBtn.addActionListener(listener);
         add(reBtn);
 
         JButton btnPda = new JButton("Autómata de pila");
+        btnPda.setBackground(Color.WHITE);
         btnPda.setActionCommand(Actions.PDA.toString());
         btnPda.addActionListener(listener);
         add(btnPda);
 
         JButton btnDfa = new JButton("Automata finito determinista");
+        btnDfa.setBackground(Color.WHITE);
         btnDfa.setActionCommand(Actions.DFA.toString());
         btnDfa.addActionListener(listener);
         add(btnDfa);
