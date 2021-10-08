@@ -8,8 +8,6 @@ public interface DFAIAutomataFinito {
 	
 	public void agregarFunciones(DFAFuncionTransicion estado);
 	
-	public void agregarAlfabeto(String alfabeto);
-	
 	public Object[] evaluarCadena(String cadena,  int tipoAutomata); 
 	
 	public DFAEstado seachEstado(String nameEstado);

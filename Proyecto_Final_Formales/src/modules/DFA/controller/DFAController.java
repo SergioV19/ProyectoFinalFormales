@@ -25,7 +25,6 @@ public class DFAController implements ActionListener {
 		case "ADD_ALFABETO": {
 			String alfabeto = view.getAlfabeto();
 			if (!alfabeto.isEmpty()) {
-				iAutomata.agregarAlfabeto(alfabeto);
 				System.out.println(alfabeto);
 			} else {
 				view.showDialog("El alfabeto esta vacio");

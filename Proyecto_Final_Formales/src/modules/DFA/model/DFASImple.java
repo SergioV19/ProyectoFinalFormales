@@ -25,9 +25,7 @@ public class DFASImple implements DFAIAutomataFinito{
 		}
 	}
 
-	@Override
-	public void agregarAlfabeto(String alfabeto) {
-	}
+
 
 	@Override
 	public DFAEstado seachEstado(String nameEstado) {
